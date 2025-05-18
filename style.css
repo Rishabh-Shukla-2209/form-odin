@@ -98,6 +98,7 @@ input{
     border: 2px solid hsl(240, 4%, 95%);;
     border-radius: 5px;
     outline: none;
+    border: 1px solid #E5E7EB;
 }
 
 label{
@@ -114,7 +115,7 @@ button{
     color: #fff;
     background-color: #596D48;
     border: none;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 10px;
 }
 
@@ -132,5 +133,9 @@ span{
 input:focus{
     box-shadow: 2px 2px 8px 0 rgb(174, 172, 172);
     border: 1px solid rgb(74, 74, 183);
+}
+
+input:invalid{
+    border: 1px solid rgb(229, 12, 73) !important;
 }
 
